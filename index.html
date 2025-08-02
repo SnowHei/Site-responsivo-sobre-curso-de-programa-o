@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNLogic - Aprenda Programação e Lógica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>SNLogic</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#conceitos" class="nav-link">Conceitos</a></li>
+                    <li><a href="#logica" class="nav-link">Lógica</a></li>
+                    <li><a href="#recursos" class="nav-link">Recursos</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Aprenda <span class="gradient-text">Programação</span> e 
+                    <span class="gradient-text">Lógica</span>
+                </h1>
+                <p class="hero-description">
+                    Descubra o fascinante mundo da programação e desenvolva seu raciocínio lógico. 
+                    Comece sua jornada na tecnologia com fundamentos sólidos e práticos.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Começar Agora</button>
+                    <button class="btn btn-secondary">Saiba Mais</button>
+                </div>
+                <div class="code-animation">
+                    <pre><code id="typing-code"></code></pre>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/team_coding.webp" alt="Equipe programando" class="floating-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Conceitos Básicos Section -->
+    <section id="conceitos" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Conceitos Básicos de Programação</h2>
+                <p class="section-description">
+                    Explore os blocos fundamentais que formam qualquer linguagem de programação
+                </p>
+            </div>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="images/icon_programming.png" alt="Ícone Programação">
+                    </div>
+                    <h3>Variáveis</h3>
+                    <p>Aprenda como armazenar e manipular informações em seus programas usando variáveis.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="images/icon_logic.png" alt="Ícone Lógica">
+                    </div>
+                    <h3>Tipos de Dados</h3>
+                    <p>Entenda os diferentes tipos de informações: números, texto, booleanos e muito mais.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="images/icon_web_dev.png" alt="Ícone Web Dev">
+                    </div>
+                    <h3>Operadores</h3>
+                    <p>Descubra como realizar operações matemáticas, lógicas e de comparação.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="images/icon_programming.png" alt="Ícone Programação">
+                    </div>
+                    <h3>Estruturas de Controle</h3>
+                    <p>Aprenda a tomar decisões e repetir ações com condicionais e laços.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lógica de Programação Section -->
+    <section id="logica" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lógica de Programação</h2>
+                <p class="section-description">
+                    O coração da programação: aprenda a pensar como um programador
+                </p>
+            </div>
+            <div class="logic-content">
+                <div class="logic-text">
+                    <div class="logic-item">
+                        <h3>Algoritmos</h3>
+                        <p>Sequências de passos organizados para resolver problemas específicos de forma eficiente.</p>
+                    </div>
+                    <div class="logic-item">
+                        <h3>Fluxogramas</h3>
+                        <p>Representações visuais que facilitam o entendimento e planejamento de algoritmos.</p>
+                    </div>
+                    <div class="logic-item">
+                        <h3>Pseudocódigo</h3>
+                        <p>Uma forma simplificada de escrever algoritmos antes de implementar em código real.</p>
+                    </div>
+                    <div class="logic-item">
+                        <h3>Resolução de Problemas</h3>
+                        <p>Estratégias para decompor desafios complexos em partes menores e solucionáveis.</p>
+                    </div>
+                </div>
+                <div class="logic-image">
+                    <img src="images/logic_flowchart.webp" alt="Fluxograma de Lógica" class="pulse-animation">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recursos Section -->
+    <section id="recursos" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Recursos e Próximos Passos</h2>
+                <p class="section-description">
+                    Ferramentas e caminhos para continuar sua jornada na programação
+                </p>
+            </div>
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <h3>Ferramentas de Desenvolvimento</h3>
+                    <ul>
+                        <li>Visual Studio Code</li>
+                        <li>Sublime Text</li>
+                        <li>IntelliJ IDEA</li>
+                        <li>Eclipse</li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>Linguagens Recomendadas</h3>
+                    <ul>
+                        <li>Python - Ideal para iniciantes</li>
+                        <li>JavaScript - Para web</li>
+                        <li>C# - Desenvolvimento robusto</li>
+                        <li>Java - Multiplataforma</li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>Exercícios Práticos</h3>
+                    <ul>
+                        <li>HackerRank</li>
+                        <li>LeetCode</li>
+                        <li>Codewars</li>
+                        <li>URI Online Judge</li>
+                    </ul>
+                </div>
+                <div class="resource-card">
+                    <h3>Comunidades</h3>
+                    <ul>
+                        <li>Stack Overflow</li>
+                        <li>GitHub</li>
+                        <li>Reddit Programming</li>
+                        <li>Discord Dev Communities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>SNLogic</h3>
+                    <p>Seu ponto de partida para uma jornada incrível no universo da tecnologia.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#conceitos">Conceitos</a></li>
+                        <li><a href="#logica">Lógica</a></li>
+                        <li><a href="#recursos">Recursos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SNLogic. Desenvolvido com ❤️ para ensinar programação.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
